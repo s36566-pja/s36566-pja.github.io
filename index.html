@@ -3,6 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <style>
+      .text-panel {
+        border: 1px solid palegoldenrod;
+        border-radius: 5px;
+        margin: 10px;
+        padding: 10px;
+        color: burlywood;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+      h2{
+        text-align: center;
+      }
+      h1{
+        text-align: center;
+      }
+      .link-button {
+        display:inline-block;
+        border: 1px solid black;
+        border-radius: 5px;
+        background-color: aquamarine;
+        color: aliceblue;
+        text-decoration: none;
+        padding:5px;
+        margin:5px;
+      }
+
+      .link-button:hover{
+        background-color: aliceblue;
+        color: aquamarine;
+        transition-duration: 0.3s;
+      }
+    </style>
 </head>
 <body>
     <header style="
@@ -15,6 +47,19 @@
 
         <h1>Lorem Ipsum</h1>
     </header>
+
+    <a class="link-button"podstrona.html>link do podstrony</a>
+    <br>
+    <button class="button-link" onclick="location.href='podstrona.html'" >Button do podstrony</button>
+
+    <div class="text-panel">
+        <h1> Lorem ipsum </h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae ipsam obcaecati tempora veniam quisquam quidem laborum commodi maiores nobis, consequuntur tempore dolor nisi molestiae totam earum ratione qui necessitatibus ducimus?</p>
+    </div>
+    <div class="text-panel">
+        <h2> Lorem ipsum</h2>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam consequatur incidunt itaque adipisci reprehenderit aperiam sint atque, magni optio quas. Cum sed molestiae quod nesciunt facilis sequi eligendi, tenetur reprehenderit?</p>
+    </div>
     <p style="
     border: 3px solid orchid;
     margin: 5px;
